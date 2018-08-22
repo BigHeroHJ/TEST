@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'cgaTools_Example' do
+  pod 'cgaTools', :path => '../'
+
+  target 'cgaTools_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

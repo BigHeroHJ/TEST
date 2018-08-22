@@ -1,0 +1,6 @@
+framework module cgaTools {
+  umbrella header "cgaTools-umbrella.h"
+
+  export *
+  module * { export * }
+}
